@@ -12,6 +12,7 @@ class Triangle
 
   def kind
     if postive_sides?
+      unless triangle_inequality?
       if @a == @b && @a == @c
         :equilateral
       elsif @a == @b || @a == @c || @b == @c
@@ -19,6 +20,7 @@ class Triangle
       else
         :scalene
       end
+
     else
       raise TriangleError
     end
