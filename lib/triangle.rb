@@ -27,7 +27,7 @@ class Triangle
       unless triangle_inequality?
         if equilateral?
           :equilateral
-        elsif
+        elsif isosceles?
           :isosceles
         else
           :scalene
