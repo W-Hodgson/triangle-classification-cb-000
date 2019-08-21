@@ -6,6 +6,10 @@ class Triangle
     @c = c
   end
 
+  def negative_sides?
+
+  end
+
   def kind
     if @a == @b && @a == @c
       :equilateral
