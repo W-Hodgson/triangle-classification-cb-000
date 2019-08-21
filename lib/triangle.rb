@@ -10,6 +10,8 @@ class Triangle
     @a > 0 && @b > 0 && @c > 0
   end
 
+  def triangle_inequality?
+
   def kind
     if postive_sides?
       unless triangle_inequality?
