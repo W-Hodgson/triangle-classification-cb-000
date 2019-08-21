@@ -16,6 +16,8 @@ class Triangle
 
   def equilateral?
 
+  end
+
   def kind
     if postive_sides?
       unless triangle_inequality?
