@@ -15,13 +15,13 @@ class Triangle
   end
 
   def equilateral?
-
+    @a == @b && @a == @c
   end
 
   def kind
     if postive_sides?
       unless triangle_inequality?
-        if @a == @b && @a == @c
+        if equilateral?
           :equilateral
         elsif @a == @b || @a == @c || @b == @c
           :isosceles
