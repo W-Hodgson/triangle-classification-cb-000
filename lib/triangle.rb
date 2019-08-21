@@ -14,6 +14,8 @@ class Triangle
     @a + @b <= @c || @a + @c <= @b || @b + @c <= @a
   end
 
+  def equilateral?
+
   def kind
     if postive_sides?
       unless triangle_inequality?
