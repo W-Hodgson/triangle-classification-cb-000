@@ -11,7 +11,7 @@ class Triangle
       :equilateral
     elsif @a == @b || @a == @c || @b == @case object
     when condition
-      
+
     end
   end
 
