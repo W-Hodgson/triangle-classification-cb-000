@@ -19,7 +19,7 @@ class Triangle
   end
 
   def isosceles?
-
+    @a == @b || @a == @c || @b == @c
   end
 
   def kind
@@ -27,7 +27,7 @@ class Triangle
       unless triangle_inequality?
         if equilateral?
           :equilateral
-        elsif @a == @b || @a == @c || @b == @c
+        elsif
           :isosceles
         else
           :scalene
