@@ -9,7 +9,7 @@ class Triangle
   def kind
     if @a == @b == @c
       :equilateral
-    end
+    elsif 
   end
 
   class TriangleError < StandardError
