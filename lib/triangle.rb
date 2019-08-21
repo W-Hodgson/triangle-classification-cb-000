@@ -20,7 +20,7 @@ class Triangle
         :scalene
       end
     else
-
+      
     end
   end
 
