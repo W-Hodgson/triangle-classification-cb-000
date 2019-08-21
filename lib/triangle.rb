@@ -12,15 +12,13 @@ class Triangle
 
   def kind
     if postive_sides?
-
-    end
-
-    if @a == @b && @a == @c
-      :equilateral
-    elsif @a == @b || @a == @c || @b == @c
-      :isosceles
-    else
-      :scalene
+      if @a == @b && @a == @c
+        :equilateral
+      elsif @a == @b || @a == @c || @b == @c
+        :isosceles
+      else
+        :scalene
+      end
     end
   end
 
