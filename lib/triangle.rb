@@ -6,8 +6,8 @@ class Triangle
     @c = c
   end
 
-  def negative_sides?
-
+  def postive_sides?
+    @a > 0 && @b > 0 && @c > 0
   end
 
   def kind
