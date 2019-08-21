@@ -11,6 +11,10 @@ class Triangle
   end
 
   def kind
+    if postive_sides?
+
+    end
+
     if @a == @b && @a == @c
       :equilateral
     elsif @a == @b || @a == @c || @b == @c
