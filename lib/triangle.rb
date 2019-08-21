@@ -18,6 +18,10 @@ class Triangle
     @a == @b && @a == @c
   end
 
+  def isosceles?
+
+  end
+
   def kind
     if postive_sides?
       unless triangle_inequality?
